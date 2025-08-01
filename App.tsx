@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, StatusBar, useColorScheme } from 'react-native';
- 
+  
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
