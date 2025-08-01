@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, StatusBar, useColorScheme } from 'react-native'
 function App() {
   const isDarkMode = useColorScheme() === 'dark'; 
  
-  return (
+  return ( 
     <View style={[styles.container, { backgroundColor: isDarkMode ? '#000' : '#fff' }]}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <Text style={[styles.text, { color: isDarkMode ? '#fff' : '#000' }]}>
